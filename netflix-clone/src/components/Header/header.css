@@ -37,3 +37,11 @@
   /* background-color: lightblue; */
 }
 
+.header_right ul{
+  width: 150%;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  cursor: pointer;
+  /* background-color: lightgreen;1 */
+}

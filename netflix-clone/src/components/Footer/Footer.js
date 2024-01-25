@@ -1,14 +1,17 @@
-import React from 'react'
-import "./footer.css"
+import React from "react";
+import "./footer.css";
+import FacebookOutlinedIcon from '@mui/icons-material/FacebookOutlined';
+import InstagramIcon from '@mui/icons-material/Instagram';
+import YouTubeIcon from '@mui/icons-material/YouTube';
 
 const Footer = () => {
   return (
     <div className="footer_outer_container">
       <div className="footer_inner_container">
         <div className="footer_icons">
-          {/* <FacebookOutLinedIcon />
+          <FacebookOutlinedIcon />
           <InstagramIcon />
-          <YouTubeIcon /> */}
+          <YouTubeIcon />
         </div>
         <div className="footer_data">
           <div>
@@ -40,15 +43,13 @@ const Footer = () => {
             </ul>
           </div>
         </div>
-        <div className='service_code'>
+        <div className="service_code">
           <p>Service Code</p>
         </div>
-        <div className="copy_write">
-          &copy; 1997-2024 Netflix, Inc.
-        </div>
+        <div className="copy_write">&copy; 1997-2024 Netflix, Inc.</div>
       </div>
     </div>
-  )
-}
+  );
+};
 
 export default Footer;
